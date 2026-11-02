@@ -1,9 +1,14 @@
 # Foodtruck — Starter 2
 
-Branche : `starter-2-ingredients`. Ce dossier est un point de départ à compléter, pas le corrigé.
+Dépôt : `I321-StarterCode-2`. La branche `main` contient le starter. Ce dossier est un point de départ à compléter, pas le corrigé.
 Installer Node.js **24 LTS** et Git. Le cours et les consignes restent en français.
 
 ## Démarrer
+
+```sh
+git clone https://github.com/CPNV-KMI-I321/I321-StarterCode-2.git
+cd I321-StarterCode-2
+```
 
 ```sh
 npm ci
@@ -48,3 +53,14 @@ Ne pas modifier les assertions pour les faire passer. Avancer fonctionnalité pa
 
 Le diagramme demandé peut être produit dans `docs/a-completer.puml`.
 Ce starter possède un historique indépendant du corrigé. Le corrigé sera publié par l'enseignant en fin de séance.
+
+## Consulter le corrigé
+
+Quand l’enseignant aura publié la branche `solution` :
+
+```sh
+git fetch origin
+git switch solution
+```
+
+Conserver son travail dans des commits avant de changer de branche.
